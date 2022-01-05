@@ -8,13 +8,15 @@ Após feito o fork, clone o repositório criado para o seu computador.
 
 Vá para a branch master do seu projeto e execute o comando:
 
+```bash
 git branch
+```
 
-Mude para a branch tech-gallery com o comando git checkout tech-gallery. É nessa branch que você realizará a solução para o exercício.
+Mude para a branch tech-gallery com o comando `git checkout tech-gallery`. É nessa branch que você realizará a solução para o exercício.
 
 Observe o que deve ser feito nas instruções.
 
-Após a solução dos exercícios, abra um PR no seu repositório forkado e, se quiser, mergeie para a master, sinta-se a vontade!
+Após a solução dos exercícios, abra um PR no repositório `tryber/exercise-tech-gallery`!
 
 **Atenção!** Quando for criar o PR você irá se deparar com essa tela:
 
@@ -24,17 +26,15 @@ Após a solução dos exercícios, abra um PR no seu repositório forkado e, se 
 
 ![Mudando head do repositório](images/change-head.png)
 
-Após isso, clique no *base repository* como na imagem abaixo:
+Agora clique em `Create pull request`
 
-![Mudando a base do repositório](images/change-base.png)
-
-Mude para o seu repositório. Seu nome estará na frente do nome dele, por exemplo: `seu-nome/exercise-tech-gallery`.
+![](images/create-pull-request.png)
 
 Depois desse passo a página deve ficar assim:
 
 ![Após mudança](images/after-change.png)
 
-Agora basta criar o PULL REQUEST clicando no botão `Create Pull Request`.
+Agora basta criar o PULL REQUEST clicando no botão `Create pull request`.
 
 Para cada PR realize esse processo.
 
