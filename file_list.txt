@@ -1,0 +1,14 @@
+bloco1
+copy
+cores2.txt
+cores.txt
+dir2
+file_list.txt
+frutas2.txt
+bloco1
+copy
+cores2.txt
+cores.txt
+dir2
+file_list.txt
+frutas2.txt

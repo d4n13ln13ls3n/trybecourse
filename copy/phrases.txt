@@ -1,0 +1,8 @@
+armadillo
+bat
+cat
+dog
+elephant
+fox
+goose
+horse
