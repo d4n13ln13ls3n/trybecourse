@@ -2,9 +2,7 @@ Esse é um projeto para o conteúdo de `CSS Flexbox`.
 
 ### Antes de iniciar
 
-Crie um fork desse projeto e para isso siga esse [tutorial de como realizar um fork](https://guides.github.com/activities/forking/).
-
-Após feito o fork, clone o repositório criado para o seu computador.
+Clone o repositório criado para o seu computador.
 
 Vá para a branch master do seu projeto e execute o comando:
 
@@ -16,27 +14,9 @@ Mude para a branch tech-gallery com o comando `git checkout tech-gallery`. É ne
 
 Observe o que deve ser feito nas instruções.
 
-Após a solução dos exercícios, abra um PR no repositório `tryber/exercise-tech-gallery`!
+**Atenção!** Como esse repositório é somente-leitura, você não vai conseguir fazer push nele.
 
-**Atenção!** Quando for criar o PR você irá se deparar com essa tela:
-
-![PR do exercício](images/example-pr.png)
-
-É necessário realizar uma mudança. No última barra do lado esquerdo pro direito, clique em *compare* e mude para a branch `tech-gallery`:
-
-![Mudando head do repositório](images/change-head.png)
-
-Agora clique em `Create pull request`
-
-![](images/create-pull-request.png)
-
-Depois desse passo a página deve ficar assim:
-
-![Após mudança](images/after-change.png)
-
-Agora basta criar o PULL REQUEST clicando no botão `Create pull request`.
-
-Para cada PR realize esse processo.
+Após a solução dos exercícios, não precisa fazer o push ou criar um pull request, já que não há um avaliador para esse exercício.
 
 ### COMEÇANDO OS EXERCÍCIOS
 
