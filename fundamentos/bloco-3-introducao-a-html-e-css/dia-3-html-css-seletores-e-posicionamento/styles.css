@@ -1,0 +1,66 @@
+li {
+    background-color:yellow;
+    font-size:20px;
+}
+
+li:first-of-type {
+    text-transform:uppercase;
+}
+
+li:nth-of-type(3n) {
+    text-transform:uppercase;
+}
+
+li:nth-of-type(5n) {
+    text-transform:uppercase;
+}
+li:nth-of-type(2n) {
+    color:green;
+}
+li:nth-of-type(4n) {
+    color:green;
+}
+h1, h3 {
+    color: red;
+}
+h1 em {
+    font-size:40px;
+    border: 1px black solid;
+}
+h3 em {
+    font-size:40px;
+    border: 1px black solid;
+}
+li em {
+    font-weight: bold;
+}
+.linguagens li:first-of-type {
+    color:blue;
+}
+.linguagens li:nth-of-type(2n) {
+    color:pink;
+}
+.linguagens li:nth-of-type(3n) {
+    color:pink;
+}
+.linguagens li:nth-of-type(4n) {
+    color:green;
+}
+.aliados li:hover {
+    font-weight: bold;
+}
+.aliados li:first-of-type {
+    color: orange;
+}
+.aliados li:nth-of-type(2n) {
+    color: green;
+}
+.aliados li:nth-of-type(3n) {
+    color: black;
+}
+.aliados li:nth-of-type(4n) {
+    color: yellow;
+}
+.aliados li:nth-of-type(5n) {
+    color: green;
+}
