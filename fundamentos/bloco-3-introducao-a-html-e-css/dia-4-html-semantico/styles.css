@@ -1,0 +1,130 @@
+body {
+    background-color: white;
+}
+
+#logo {
+    display:inline-block;
+    float: left;
+}
+
+nav {
+    display:block;
+    position:relative;
+    height: 200px;
+    background-image: url("./logo.png");
+    background-repeat: no-repeat;
+}
+
+#menu li{
+    list-style-type: none;
+    display:block;
+    float:right;
+    width:160px;
+    text-align:center;
+    font-size: 20pt;
+    margin-right:50px;
+    margin-top: 90px;
+    padding:0px;
+    top:50px;
+    height:300px;
+   }
+
+#titulo-pagina {
+    text-align: center;
+    display:inline-block;
+    margin-top:10px;
+}
+
+main {
+    position:absolute;
+}
+
+table {
+    margin-bottom:5px;
+}
+
+table tr td:nth-child(odd) {
+background-color: yellow;
+padding: 10px;
+margin-right:5px;
+}
+
+table tr td:nth-child(even) {
+    background-color: green;
+    padding: 10px;
+    text-align:right;
+}
+
+#artigo-descricao, #artigo-visao {
+    display:block;
+    float:left;
+    position:relative;
+    width: 50%;
+    border-right:20px solid black;
+    border-top:20px solid black;
+    border-bottom:20px solid black;
+    text-align:justify;
+    margin-bottom:20px
+}
+
+#foto-descricao, #image-eyes {
+    display:block;
+    float:right;
+    position:relative;
+    width: 33%;
+    margin-left: 11px;
+}
+
+#artigo-curiosidades {
+    display:block;
+    float:right;
+    position:relative;
+    width: 850px;
+    height:932,5px;
+    border-left:20px solid black;
+    font-size: 12pt;
+    border-top:20px solid black;
+    border-bottom:20px solid black;
+    text-align:justify;
+}
+
+#video {
+    margin-left: 20px;
+    height:932,5px
+    border-bottom: 20px solid black;
+    border-top: 20px solid black;
+    padding: 30px;
+    
+    float:right;
+}
+
+#video h3 {
+    margin-left:60px;
+    color:red;
+}
+
+#filme {
+    height:180px;
+    width: 320px;
+    margin-left: 60px;
+}
+
+#image-punch {
+    display:block;
+    float:right;
+    position:relative;
+    width: 20%;
+}
+
+#menu li a {
+    text-decoration: none;
+}
+
+.rodape {
+    color: black;
+    border: 3px yellow solid;
+    height: 50px;
+    display:left;
+    float:right;
+    position:relative;
+}
