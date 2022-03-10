@@ -70,7 +70,7 @@ function isPrime(n) {
 function highestPrimeNumber (n1, n2) {
   let highestPrime = 2;
   if (n2 <= n1) {
-    throw new Error ("n2 cannot be less or equal than n1");
+    console.log("n2 cannot be less or equal than n1");
     return;
   }
   for (let j = n1; j <= n2; j += 1) {
