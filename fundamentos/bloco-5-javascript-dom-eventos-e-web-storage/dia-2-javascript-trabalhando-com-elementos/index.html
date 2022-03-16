@@ -76,7 +76,32 @@
       newSection.appendChild(newParagraph);
       newParagraph.innerText = "This part was created with appendChild and innerText.";
 
+      let newSection2 = document.createElement('section');
+      novaMain.appendChild(newSection2);
+      newSection2.className = 'left-content';
+
+      let newSection3 = document.createElement('section');
+      novaMain.appendChild(newSection3);
+      newSection3.className = 'right-content';
+
+      let newImage = document.createElement('img');
+      newSection2.appendChild(newImage);
+      newImage.src = 'https://picsum.photos/200';
+      newImage.className = 'small-image';
+
+      let newUl = document.createElement('ul');
+      newSection3.appendChild(newUl);
+        for (let i = 0; i < 10; i += 1) {
+          let ulItem = document.createElement('li');
+          newUl.appendChild(ulItem);
+          let numbers = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+          ulItem.innerText = numbers[i];
+        }
       
+      for (let i = 0; i < 3; i += 1) {
+        let newH3 = document.createElement('h3');
+        novaMain.appendChild(newH3);
+      }
 
     </script>
   </body>
