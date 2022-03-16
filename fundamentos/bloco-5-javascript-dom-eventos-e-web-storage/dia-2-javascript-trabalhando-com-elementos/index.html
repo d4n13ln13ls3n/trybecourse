@@ -62,15 +62,18 @@
       body.appendChild(novoH1);
       novoH1.innerText = "Exercício 5.2 - JavaScript DOM";
       novoH1.style.color = "red";
+      novoH1.className = 'title';
 
       let novaMain = document.createElement('main');
       body.appendChild(novaMain);
       novaMain.className = 'main-content';
-      novaMain.style.backgroundColor = "yellow";
+      //novaMain.style.backgroundColor = "#036b52";
 
       let newSection = document.createElement('section');
       novaMain.appendChild(newSection);
       newSection.className = 'center-content';
+      newSection.parentElement.style.backgroundColor = "#036b52";
+
 
       let newParagraph = document.createElement('p');
       newSection.appendChild(newParagraph);
@@ -79,10 +82,12 @@
       let newSection2 = document.createElement('section');
       novaMain.appendChild(newSection2);
       newSection2.className = 'left-content';
+      novaMain.removeChild(newSection2);
 
       let newSection3 = document.createElement('section');
       novaMain.appendChild(newSection3);
       newSection3.className = 'right-content';
+      newSection3.style.marginRight = "auto";
 
       let newImage = document.createElement('img');
       newSection2.appendChild(newImage);
@@ -91,16 +96,20 @@
 
       let newUl = document.createElement('ul');
       newSection3.appendChild(newUl);
+      let numbers = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+
         for (let i = 0; i < 10; i += 1) {
           let ulItem = document.createElement('li');
           newUl.appendChild(ulItem);
-          let numbers = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
           ulItem.innerText = numbers[i];
         }
+      newUl.children[8].remove();
+      newUl.children[8].remove();
       
       for (let i = 0; i < 3; i += 1) {
         let newH3 = document.createElement('h3');
         novaMain.appendChild(newH3);
+        newH3.className = 'description';
       }
 
     </script>
