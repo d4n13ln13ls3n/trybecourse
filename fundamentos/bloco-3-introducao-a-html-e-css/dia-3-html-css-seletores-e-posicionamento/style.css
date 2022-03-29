@@ -1,0 +1,131 @@
+/* referente ao primeiro index */
+
+
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.width-and-height {
+    height: 50px;
+    width: 50px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.margin {
+    margin: 30px;
+}
+
+.border {
+    border: 5px solid black;
+}
+
+/* referente ao segundo index */
+
+#title:transition {
+    color:yellowgreen;
+}
+
+#title:hover {
+    color:navy;
+}
+
+.super-mario {
+    width: 200px;
+    position:absolute;
+}
+
+.goomba {
+    width: 100px;
+    top:335px;
+    left:120px;
+    position:absolute
+}
+
+.balloon {
+    left: 330px;
+    position:absolute;
+    z-index:1;
+
+}
+
+.speech {
+    font-size: 25px;
+    left: 355px;
+    top:120px;
+    position:absolute;
+    z-index:2;
+}
+
+.bowser {
+    width: 200px;
+    left: 625px;
+    top:205px;
+    position:absolute;
+    z-index:3;
+}
+
+/* referente ao index3.html */
+
+h1, p {
+    text-align:center;
+}
+
+li:hover {
+    background-color:darkkhaki;
+}
+li:active {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+/* referente ao index4.html */
+
+div:hover {
+    margin: 5px;
+    }
+
+div:nth-of-type(5n) {
+    background-color:lightblue;
+    text-decoration:underline;
+    color:navy;
+    font-style:italic
+}
+
+div:first-of-type {
+    background-color:red;
+    text-decoration:line-through;
+    color:coral;
+    font-style:italic
+}
+
+div:nth-of-type(2n) {
+    background: green;
+    text-decoration:underline;
+    color:darkgoldenrod;
+}
+
+div:nth-of-type(3n) {
+    background-color: red;
+    text-decoration:line-through;
+    color:pink;
+    height: 40px;
+    font-style:italic
+}
+
+div:nth-of-type(4n) {
+    background-color: navy;
+    text-decoration:overline;
+    color:cornflowerblue;
+}
+
+/* referente ao index5.html */
