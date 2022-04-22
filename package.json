@@ -1,0 +1,23 @@
+{
+  "name": "trybecourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "projectTests.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d4n13ln13ls3n/trybecourse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d4n13ln13ls3n/trybecourse/issues"
+  },
+  "homepage": "https://github.com/d4n13ln13ls3n/trybecourse#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
